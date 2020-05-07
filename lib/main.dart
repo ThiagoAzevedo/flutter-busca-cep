@@ -200,7 +200,6 @@ class _HomePageState extends State<HomePage> {
 
   Future _searchCep() async {
     _searching(true);
-
     // Recupera o valor do CEP informado
     final cep = _ctrlCep.text;
 
